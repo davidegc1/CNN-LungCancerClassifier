@@ -76,4 +76,6 @@ The VGG16 model achieved state-of-the-art performance with 95% accuracy, demonst
 
 Special thanks to Professor Zoran Djordjevic and colleagues who supported the project.
 
+This work was completed as a final project for the [767 Advanced Machine Learning and Neural Networks](https://www.bu.edu/csmet/academic-programs/courses/cs767/) class at BU MET College.
+
 
