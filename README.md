@@ -8,6 +8,8 @@ This project aims to develop a deep learning model to classify medical lung scan
 
 The dataset used in this project is the [Lung-PET-CT-DX dataset](https://www.cancerimagingarchive.net/collection/lung-pet-ct-dx/), containing over 250,000 lung scans from 355 subjects. For the scope of this project, we utilized 20,000 images from the Adenocarcinoma (A) and Squamous Cell Carcinoma (G) classes, ensuring a balanced distribution between both classes. The images were preprocessed and split into training (70%), validation (15%), and testing (15%) sets.
 
+Sample scan:
+
 ![Sample Image](sample.png)
 
 ## Models
