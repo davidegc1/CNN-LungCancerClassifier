@@ -8,6 +8,8 @@ This project aims to develop a deep learning model to classify medical lung scan
 
 The dataset used in this project is the [Lung-PET-CT-DX dataset](https://www.cancerimagingarchive.net/collection/lung-pet-ct-dx/), containing over 250,000 lung scans from 355 subjects. For the scope of this project, we utilized 20,000 images from the Adenocarcinoma (A) and Squamous Cell Carcinoma (G) classes, ensuring a balanced distribution between both classes. The images were preprocessed and split into training (70%), validation (15%), and testing (15%) sets.
 
+![Sample Image](sample.png)
+
 ## Models
 
 Two distinct models were tested:
@@ -42,8 +44,8 @@ Hardware: v2-8 TPU on Google Colab
 
 ## Results
 
+For more details on the results, view this [report](report.pdf).
 The VGG16 model slightly outperformed the baseline CNN model. Key results include:
-
 - Validation Accuracy: 95.17% (VGG16), 93.90% (Baseline)
 
 - Validation Loss: 0.1356 (VGG16), 0.2005 (Baseline)
@@ -51,6 +53,8 @@ The VGG16 model slightly outperformed the baseline CNN model. Key results includ
 - Test Accuracy: 95.03% (VGG16), 94.60% (Baseline)
 
 - Test Loss: 0.1428 (VGG16), 0.2025 (Baseline)
+
+For more detailed 
 
 ## Challenges
 
